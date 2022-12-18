@@ -9,8 +9,8 @@
 /// file in the top level directory.
 ///
 
-#include <PiTable.hpp>
-#include <primesieve.hpp>
+#include "PiTable.hpp"
+#include "primesieve.hpp"
 
 #include <stdint.h>
 #include <iostream>

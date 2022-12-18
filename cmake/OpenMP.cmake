@@ -26,7 +26,7 @@ if(OpenMP_FOUND OR OpenMP_CXX_FOUND)
 
     # Check if compiles without libatomic
     check_cxx_source_compiles("
-        #include <int128_t.hpp>
+        #include "int128_t.hpp"
         #include <omp.h>
         #include <stdint.h>
         #include <iostream>
@@ -51,7 +51,7 @@ if(OpenMP_FOUND OR OpenMP_CXX_FOUND)
 
             # Check if compiles with libatomic
             check_cxx_source_compiles("
-                #include <int128_t.hpp>
+                #include "int128_t.hpp"
                 #include <omp.h>
                 #include <stdint.h>
                 #include <iostream>

@@ -9,15 +9,15 @@
 /// file in the top level directory.
 ///
 
-#include <primesieve/config.hpp>
-#include <primesieve/CpuInfo.hpp>
-#include <primesieve/Erat.hpp>
-#include <primesieve/EratSmall.hpp>
-#include <primesieve/EratMedium.hpp>
-#include <primesieve/EratBig.hpp>
-#include <primesieve/PreSieve.hpp>
-#include <primesieve/macros.hpp>
-#include <primesieve/pmath.hpp>
+#include "primesieve/config.hpp"
+#include "primesieve/CpuInfo.hpp"
+#include "primesieve/Erat.hpp"
+#include "primesieve/EratSmall.hpp"
+#include "primesieve/EratMedium.hpp"
+#include "primesieve/EratBig.hpp"
+#include "primesieve/PreSieve.hpp"
+#include "primesieve/macros.hpp"
+#include "primesieve/pmath.hpp"
 
 #include <stdint.h>
 #include <algorithm>

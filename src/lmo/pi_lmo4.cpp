@@ -17,13 +17,13 @@
 /// file in the top level directory.
 ///
 
-#include <primecount-internal.hpp>
-#include <imath.hpp>
-#include <generate.hpp>
-#include <PhiTiny.hpp>
-#include <pod_vector.hpp>
-#include <BinaryIndexedTree.hpp>
-#include <S.hpp>
+#include "primecount-internal.hpp"
+#include "imath.hpp"
+#include "generate.hpp"
+#include "PhiTiny.hpp"
+#include "pod_vector.hpp"
+#include "BinaryIndexedTree.hpp"
+#include "S.hpp"
 
 #include <stdint.h>
 #include <algorithm>

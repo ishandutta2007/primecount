@@ -133,10 +133,10 @@ sudo ldconfig
 
 ## C++ API
 
-Include the ```<primesieve.hpp>``` header to use libprimesieve's C++ API.
+Include the ```"primesieve.hpp"``` header to use libprimesieve's C++ API.
 
 ```C++
-#include <primesieve.hpp>
+#include "primesieve.hpp"
 #include <iostream>
 
 int main()
@@ -159,7 +159,7 @@ int main()
 Include the ```<primesieve.h>``` header to use libprimesieve's C API.
 
 ```C
-#include <primesieve.h>
+#include "primesieve.h"
 #include <inttypes.h>
 #include <stdio.h>
 

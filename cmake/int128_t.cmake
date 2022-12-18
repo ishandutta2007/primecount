@@ -14,7 +14,7 @@ cmake_push_check_state()
 set(CMAKE_REQUIRED_INCLUDES "${PROJECT_SOURCE_DIR}/include")
 
 check_cxx_source_compiles("
-    #include <int128_t.hpp>
+    #include "int128_t.hpp"
     #include <limits>
     #include <type_traits>
     int main() {
@@ -40,7 +40,7 @@ if(NOT int128)
     endif()
 
     check_cxx_source_compiles("
-        #include <int128_t.hpp>
+        #include "int128_t.hpp"
         #include <limits>
         #include <type_traits>
         int main() {
@@ -66,7 +66,7 @@ if(NOT int128)
             set(CMAKE_REQUIRED_QUIET TRUE)
 
             check_cxx_source_compiles("
-                #include <int128_t.hpp>
+                #include "int128_t.hpp"
                 #include <limits>
                 #include <type_traits>
                 int main() {

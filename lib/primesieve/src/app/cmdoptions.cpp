@@ -11,10 +11,10 @@
 
 #include "cmdoptions.hpp"
 
-#include <primesieve/calculator.hpp>
-#include <primesieve/CpuInfo.hpp>
-#include <primesieve/PrimeSieve.hpp>
-#include <primesieve/primesieve_error.hpp>
+#include "primesieve/calculator.hpp"
+#include "primesieve/CpuInfo.hpp"
+#include "primesieve/PrimeSieve.hpp"
+#include "primesieve/primesieve_error.hpp"
 
 #include <cstddef>
 #include <cstdlib>

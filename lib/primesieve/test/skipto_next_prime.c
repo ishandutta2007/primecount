@@ -8,7 +8,7 @@
 /// file in the top level directory.
 ///
 
-#include <primesieve.h>
+#include "primesieve.h"
 
 #include <stdint.h>
 #include <inttypes.h>

@@ -8,7 +8,7 @@
 /// file in the top level directory.
 ///
 
-#include <primesieve/calculator.hpp>
+#include "primesieve/calculator.hpp"
 
 #include <iostream>
 #include <iomanip>

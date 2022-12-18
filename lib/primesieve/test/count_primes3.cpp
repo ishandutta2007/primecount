@@ -9,7 +9,7 @@
 /// file in the top level directory.
 ///
 
-#include <primesieve.hpp>
+#include "primesieve.hpp"
 
 #include <stdint.h>
 #include <algorithm>

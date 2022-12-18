@@ -9,7 +9,7 @@
  * preferable to use primesieve_next_prime().
  */
 
-#include <primesieve.h>
+#include "primesieve.h"
 #include <inttypes.h>
 #include <stdlib.h>
 #include <stdio.h>

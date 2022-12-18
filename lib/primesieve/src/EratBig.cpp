@@ -24,12 +24,12 @@
 /// file in the top level directory.
 ///
 
-#include <primesieve/EratBig.hpp>
-#include <primesieve/bits.hpp>
-#include <primesieve/Bucket.hpp>
-#include <primesieve/MemoryPool.hpp>
-#include <primesieve/macros.hpp>
-#include <primesieve/pmath.hpp>
+#include "primesieve/EratBig.hpp"
+#include "primesieve/bits.hpp"
+#include "primesieve/Bucket.hpp"
+#include "primesieve/MemoryPool.hpp"
+#include "primesieve/macros.hpp"
+#include "primesieve/pmath.hpp"
 
 #include <stdint.h>
 #include <algorithm>

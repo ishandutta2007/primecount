@@ -22,7 +22,7 @@ if(NOT CMAKE_CROSSCOMPILING)
     # GCC/Clang & x86 CPU
     if(mpopcnt)
         check_cxx_source_runs("
-            #include <popcnt.hpp>
+            #include "popcnt.hpp"
             #include <stdint.h>
             #include <iostream>
             int main(int, char** argv) {
@@ -36,7 +36,7 @@ if(NOT CMAKE_CROSSCOMPILING)
             set(CMAKE_REQUIRED_QUIET FALSE)
 
             check_cxx_source_runs("
-                #include <popcnt.hpp>
+                #include "popcnt.hpp"
                 #include <stdint.h>
                 #include <iostream>
                 int main(int, char** argv) {

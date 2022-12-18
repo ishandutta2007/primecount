@@ -8,9 +8,9 @@
 /// file in the top level directory.
 ///
 
-#include <primesieve/forward.hpp>
-#include <primesieve/Wheel.hpp>
-#include <primesieve/pod_vector.hpp>
+#include "primesieve/forward.hpp"
+#include "primesieve/Wheel.hpp"
+#include "primesieve/pod_vector.hpp"
 
 #include <stdint.h>
 

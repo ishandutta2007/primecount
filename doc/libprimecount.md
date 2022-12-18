@@ -1,8 +1,8 @@
 # libprimecount
 
 primecount can be built as a static and shared C/C++ library for use in other
-math projects. libprimecount has both a C API (```<primecount.h>``` header) and
-a C++ API (```<primecount.hpp>``` header) so you are free to pick the one that
+math projects. libprimecount has both a C API (```"primecount.h"``` header) and
+a C++ API (```"primecount.hpp"``` header) so you are free to pick the one that
 best fits your needs. The C API has been added to make it easier to write
 libprimecount bindings for other programming languages.
 
@@ -36,7 +36,7 @@ cloud servers.
 
 # C API reference
 
-Include the ```<primecount.h>``` header to use primecount's C API.
+Include the ```"primecount.h"``` header to use primecount's C API.
 All functions that are part of primecount's C API return ```-1``` in case an
 error occurs and print the corresponding error message to the standard error
 stream.
@@ -65,7 +65,7 @@ Note that primecount is multi-threaded by default, it uses all available CPU
 cores if the input is sufficiently large.
 
 ```C
-#include <primecount.h>
+#include "primecount.h"
 #include <stdio.h>
 
 int main()
@@ -99,7 +99,7 @@ export C_INCLUDE_PATH=/usr/local/include:$C_INCLUDE_PATH
 
 # C++ API reference
 
-Include the ```<primecount.hpp>``` header to use primecount's C++ API.
+Include the ```"primecount.hpp"``` header to use primecount's C++ API.
 All functions that are part of primecount's C++ API throw a
 ```primecount_error``` exception (which is derived from
 ```std::exception```) in case an error occurs.
@@ -128,7 +128,7 @@ Note that primecount is multi-threaded by default, it uses all available CPU
 cores if the input is sufficiently large.
 
 ```C++
-#include <primecount.hpp>
+#include "primecount.hpp"
 #include <iostream>
 
 int main()

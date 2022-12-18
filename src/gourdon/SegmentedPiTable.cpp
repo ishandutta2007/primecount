@@ -24,12 +24,12 @@
 /// file in the top level directory.
 ///
 
-#include <SegmentedPiTable.hpp>
-#include <primecount-internal.hpp>
-#include <primesieve.hpp>
-#include <imath.hpp>
-#include <macros.hpp>
-#include <min.hpp>
+#include "SegmentedPiTable.hpp"
+#include "primecount-internal.hpp"
+#include "primesieve.hpp"
+#include "imath.hpp"
+#include "macros.hpp"
+#include "min.hpp"
 
 #include <stdint.h>
 #include <algorithm>

@@ -12,8 +12,8 @@
 #ifndef OMPLOCK_HPP
 #define OMPLOCK_HPP
 
-#include <macros.hpp>
-#include <primecount-config.hpp>
+#include "macros.hpp"
+#include "primecount-config.hpp"
 
 #if defined(_OPENMP)
   #include <omp.h>

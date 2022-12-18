@@ -26,7 +26,7 @@
 #ifndef FAST_DIV_HPP
 #define FAST_DIV_HPP
 
-#include <macros.hpp>
+#include "macros.hpp"
 
 #include <limits>
 #include <stdint.h>

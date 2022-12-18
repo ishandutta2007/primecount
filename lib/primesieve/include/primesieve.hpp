@@ -17,9 +17,9 @@
 #define PRIMESIEVE_VERSION_MAJOR 11
 #define PRIMESIEVE_VERSION_MINOR 0
 
-#include <primesieve/iterator.hpp>
-#include <primesieve/primesieve_error.hpp>
-#include <primesieve/StorePrimes.hpp>
+#include "primesieve/iterator.hpp"
+#include "primesieve/primesieve_error.hpp"
+#include "primesieve/StorePrimes.hpp"
 
 #include <stdint.h>
 #include <string>

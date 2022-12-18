@@ -9,10 +9,10 @@
 /// file in the top level directory.
 ///
 
-#include <primecount.hpp>
-#include <generate.hpp>
-#include <generate_phi.hpp>
-#include <PiTable.hpp>
+#include "primecount.hpp"
+#include "generate.hpp"
+#include "generate_phi.hpp"
+#include "PiTable.hpp"
 
 #include <stdint.h>
 #include <iostream>

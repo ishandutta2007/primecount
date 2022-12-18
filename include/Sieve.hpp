@@ -37,7 +37,7 @@
 #ifndef SIEVE_HPP
 #define SIEVE_HPP
 
-#include <pod_vector.hpp>
+#include "pod_vector.hpp"
 #include <stdint.h>
 
 namespace primecount {

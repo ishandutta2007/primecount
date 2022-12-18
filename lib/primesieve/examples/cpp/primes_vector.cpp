@@ -1,7 +1,7 @@
 /// @example primes_vector.cpp
 /// Fill a std::vector with primes.
 
-#include <primesieve.hpp>
+#include "primesieve.hpp"
 #include <vector>
 
 int main()

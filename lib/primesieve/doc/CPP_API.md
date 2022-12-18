@@ -12,8 +12,8 @@ functionality of libprimesieve. Arguably the most useful feature provided by lib
 ```primesieve::iterator``` which lets you iterate over primes using the ```next_prime()``` or
 ```prev_prime()``` methods.
 
-The functions of libprimesieve's C++ API are defined in the [```<primesieve.hpp>```](../include/primesieve.hpp)
-and [```<primesieve/iterator.hpp>```](../include/primesieve/iterator.hpp) header files. If you
+The functions of libprimesieve's C++ API are defined in the [```"primesieve.hpp"```](../include/primesieve.hpp)
+and [```"primesieve/iterator.hpp"```](../include/primesieve/iterator.hpp) header files. If you
 need detailed information about libprimesieve's function signatures, e.g. because you want to
 write libprimesieve bindings for another programming language, then I suggest you read
 the libprimesieve header files which also contain additional documentation about the function
@@ -50,7 +50,7 @@ By default ```primesieve::iterator::next_prime()``` generates primes ≥ 0 i.e. 
   same program.
 
 ```C++
-#include <primesieve.hpp>
+#include "primesieve.hpp"
 #include <iostream>
 
 int main()
@@ -86,7 +86,7 @@ the constructor of the ```primesieve::iterator``` object.
   $O(\log{n}\times \log{\log{n}})$ operations.
 
 ```C++
-#include <primesieve.hpp>
+#include "primesieve.hpp"
 #include <iostream>
 
 int main()
@@ -113,7 +113,7 @@ If ```stop_hint``` is set ```primesieve::iterator``` will only buffer primes up 
 this limit.
 
 ```C++
-#include <primesieve.hpp>
+#include "primesieve.hpp"
 #include <iostream>
 
 int main()
@@ -152,7 +152,7 @@ will generate primes < start. ```primesieve::iterator::skipto()``` has been repl
   $O(\log{n}\times \log{\log{n}})$ operations.
 
 ```C++
-#include <primesieve.hpp>
+#include "primesieve.hpp"
 #include <iostream>
 
 int main()
@@ -186,7 +186,7 @@ initialized to 0 be default).
   seen in the example below.
 
 ```C++
-#include <primesieve.hpp>
+#include "primesieve.hpp"
 #include <iostream>
 
 int main()
@@ -212,7 +212,7 @@ many times in a loop you will likely get better performance if you store the pri
 instead of using a ```primesieve::iterator``` (provided your system has enough memory).
 
 ```C++
-#include <primesieve.hpp>
+#include "primesieve.hpp"
 #include <vector>
 
 int main()
@@ -238,7 +238,7 @@ int main()
 Stores n primes in a ```std::vector```.
 
 ```C++
-#include <primesieve.hpp>
+#include "primesieve.hpp"
 #include <vector>
 
 int main()
@@ -265,7 +265,7 @@ Counts the primes inside [start, stop]. This function is multi-threaded and uses
 available CPU cores by default.
 
 ```C++
-#include <primesieve.hpp>
+#include "primesieve.hpp"
 #include <iostream>
 
 int main()
@@ -285,7 +285,7 @@ This function finds the nth prime e.g. ```nth_prime(25) = 97```. This function i
 multi-threaded and uses all available CPU cores by default.
 
 ```C++
-#include <primesieve.hpp>
+#include "primesieve.hpp"
 #include <iostream>
 
 int main()
@@ -309,7 +309,7 @@ the two main cases which will trigger an exception are: memory allocation failur
 ```primesieve::primesieve_error```).
 
 ```C++
-#include <primesieve.hpp>
+#include "primesieve.hpp"
 #include <iostream>
 
 int main()
@@ -384,7 +384,7 @@ object. The OpenMP reduction clause takes care of adding the partial
 prime sum results together in a thread safe manner.
 
 ```C++
-#include <primesieve.hpp>
+#include "primesieve.hpp"
 #include <iostream>
 #include <omp.h>
 

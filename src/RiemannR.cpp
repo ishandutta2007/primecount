@@ -21,9 +21,9 @@
 /// file in the top level directory.
 ///
 
-#include <primecount-internal.hpp>
-#include <generate.hpp>
-#include <int128_t.hpp>
+#include "primecount-internal.hpp"
+#include "generate.hpp"
+#include "int128_t.hpp"
 
 #include <stdint.h>
 #include <cmath>

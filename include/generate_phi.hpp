@@ -25,16 +25,16 @@
 #ifndef GENERATE_PHI_HPP
 #define GENERATE_PHI_HPP
 
-#include <primecount-internal.hpp>
-#include <BitSieve240.hpp>
-#include <fast_div.hpp>
-#include <imath.hpp>
-#include <macros.hpp>
-#include <min.hpp>
-#include <PhiTiny.hpp>
-#include <PiTable.hpp>
-#include <pod_vector.hpp>
-#include <popcnt.hpp>
+#include "primecount-internal.hpp"
+#include "BitSieve240.hpp"
+#include "fast_div.hpp"
+#include "imath.hpp"
+#include "macros.hpp"
+#include "min.hpp"
+#include "PhiTiny.hpp"
+#include "PiTable.hpp"
+#include "pod_vector.hpp"
+#include "popcnt.hpp"
 
 #include <stdint.h>
 #include <algorithm>

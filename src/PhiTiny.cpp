@@ -15,11 +15,11 @@
 /// file in the top level directory.
 ///
 
-#include <PhiTiny.hpp>
-#include <pod_vector.hpp>
-#include <popcnt.hpp>
-#include <imath.hpp>
-#include <macros.hpp>
+#include "PhiTiny.hpp"
+#include "pod_vector.hpp"
+#include "popcnt.hpp"
+#include "imath.hpp"
+#include "macros.hpp"
 
 #include <stdint.h>
 #include <algorithm>

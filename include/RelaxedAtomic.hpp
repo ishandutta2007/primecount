@@ -23,8 +23,8 @@
 #ifndef RELAXEDATOMIC_HPP
 #define RELAXEDATOMIC_HPP
 
-#include <macros.hpp>
-#include <primecount-config.hpp>
+#include "macros.hpp"
+#include "primecount-config.hpp"
 
 #include <atomic>
 

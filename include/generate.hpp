@@ -10,8 +10,8 @@
 #ifndef GENERATE_HPP
 #define GENERATE_HPP
 
-#include <primesieve.hpp>
-#include <pod_vector.hpp>
+#include "primesieve.hpp"
+#include "pod_vector.hpp"
 
 #include <stdint.h>
 

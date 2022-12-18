@@ -10,7 +10,7 @@
 #ifndef CMDOPTIONS_HPP
 #define CMDOPTIONS_HPP
 
-#include <primesieve/pod_vector.hpp>
+#include "primesieve/pod_vector.hpp"
 #include <stdint.h>
 
 struct CmdOptions

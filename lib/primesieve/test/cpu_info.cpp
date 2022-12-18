@@ -8,7 +8,7 @@
 /// file in the top level directory.
 ///
 
-#include <primesieve/CpuInfo.hpp>
+#include "primesieve/CpuInfo.hpp"
 
 #include <iostream>
 #include <string>

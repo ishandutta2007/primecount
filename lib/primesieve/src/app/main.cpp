@@ -8,8 +8,8 @@
 /// file in the top level directory.
 ///
 
-#include <primesieve/ParallelSieve.hpp>
-#include <primesieve/pod_vector.hpp>
+#include "primesieve/ParallelSieve.hpp"
+#include "primesieve/pod_vector.hpp"
 #include "cmdoptions.hpp"
 
 #include <stdint.h>

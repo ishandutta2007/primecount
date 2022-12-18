@@ -10,9 +10,9 @@
 /// file in the top level directory.
 ///
 
-#include <primecount-internal.hpp>
-#include <generate.hpp>
-#include <imath.hpp>
+#include "primecount-internal.hpp"
+#include "generate.hpp"
+#include "imath.hpp"
 
 #include <stdint.h>
 #include <iostream>

@@ -28,14 +28,14 @@
 /// file in the top level directory.
 ///
 
-#include <LoadBalancerS2.hpp>
-#include <primecount-config.hpp>
-#include <primecount-internal.hpp>
-#include <StatusS2.hpp>
-#include <Sieve.hpp>
-#include <imath.hpp>
-#include <int128_t.hpp>
-#include <min.hpp>
+#include "LoadBalancerS2.hpp"
+#include "primecount-config.hpp"
+#include "primecount-internal.hpp"
+#include "StatusS2.hpp"
+#include "Sieve.hpp"
+#include "imath.hpp"
+#include "int128_t.hpp"
+#include "min.hpp"
 
 #include <stdint.h>
 

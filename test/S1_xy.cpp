@@ -10,10 +10,10 @@
 /// file in the top level directory.
 ///
 
-#include <generate.hpp>
-#include <PhiTiny.hpp>
-#include <imath.hpp>
-#include <S.hpp>
+#include "generate.hpp"
+#include "PhiTiny.hpp"
+#include "imath.hpp"
+#include "S.hpp"
 
 #include <stdint.h>
 #include <iostream>

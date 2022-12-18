@@ -28,9 +28,9 @@
 /// file in the top level directory.
 ///
 
-#include <primecount-internal.hpp>
-#include <imath.hpp>
-#include <print.hpp>
+#include "primecount-internal.hpp"
+#include "imath.hpp"
+#include "print.hpp"
 
 #include <stdint.h>
 

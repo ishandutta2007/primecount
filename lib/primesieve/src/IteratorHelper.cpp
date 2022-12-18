@@ -9,10 +9,10 @@
 /// file in the top level directory.
 ///
 
-#include <primesieve/config.hpp>
-#include <primesieve/IteratorHelper.hpp>
-#include <primesieve/PrimeGenerator.hpp>
-#include <primesieve/pmath.hpp>
+#include "primesieve/config.hpp"
+#include "primesieve/IteratorHelper.hpp"
+#include "primesieve/PrimeGenerator.hpp"
+#include "primesieve/pmath.hpp"
 
 #include <stdint.h>
 #include <algorithm>

@@ -12,10 +12,10 @@
 /// file in the top level directory.
 ///
 
-#include <gourdon.hpp>
-#include <primecount.hpp>
-#include <primecount-internal.hpp>
-#include <imath.hpp>
+#include "gourdon.hpp"
+#include "primecount.hpp"
+#include "primecount-internal.hpp"
+#include "imath.hpp"
 
 #include <stdint.h>
 #include <iostream>

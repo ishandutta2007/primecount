@@ -10,13 +10,13 @@
 /// file in the top level directory.
 ///
 
-#include <primesieve/forward.hpp>
-#include <primesieve/PrimeSieve.hpp>
-#include <primesieve/ParallelSieve.hpp>
-#include <primesieve/CountPrintPrimes.hpp>
-#include <primesieve/pmath.hpp>
-#include <primesieve/pod_vector.hpp>
-#include <primesieve/PreSieve.hpp>
+#include "primesieve/forward.hpp"
+#include "primesieve/PrimeSieve.hpp"
+#include "primesieve/ParallelSieve.hpp"
+#include "primesieve/CountPrintPrimes.hpp"
+#include "primesieve/pmath.hpp"
+#include "primesieve/pod_vector.hpp"
+#include "primesieve/PreSieve.hpp"
 
 #include <stdint.h>
 #include <algorithm>

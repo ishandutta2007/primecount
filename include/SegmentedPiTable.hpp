@@ -27,10 +27,10 @@
 #ifndef SEGMENTEDPITABLE_HPP
 #define SEGMENTEDPITABLE_HPP
 
-#include <BitSieve240.hpp>
-#include <macros.hpp>
-#include <pod_vector.hpp>
-#include <popcnt.hpp>
+#include "BitSieve240.hpp"
+#include "macros.hpp"
+#include "pod_vector.hpp"
+#include "popcnt.hpp"
 
 #include <stdint.h>
 #include <algorithm>

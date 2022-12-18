@@ -24,8 +24,8 @@
 /// file in the top level directory.
 ///
 
-#include <primesieve/CpuInfo.hpp>
-#include <primesieve/macros.hpp>
+#include "primesieve/CpuInfo.hpp"
+#include "primesieve/macros.hpp"
 
 #include <algorithm>
 #include <stdint.h>
@@ -155,7 +155,7 @@ bool has_AVX512()
 
 #if defined(_WIN32)
 
-#include <primesieve/pmath.hpp>
+#include "primesieve/pmath.hpp"
 
 #include <windows.h>
 #include <iterator>
@@ -426,7 +426,7 @@ void CpuInfo::init()
 
 #elif defined(APPLE_SYSCTL)
 
-#include <primesieve/pmath.hpp>
+#include "primesieve/pmath.hpp"
 #include <sys/sysctl.h>
 
 namespace {
@@ -488,7 +488,7 @@ void CpuInfo::init()
 
 #else // Linux (and unknown OSes)
 
-#include <primesieve/primesieve_error.hpp>
+#include "primesieve/primesieve_error.hpp"
 
 #include <cctype>
 #include <fstream>

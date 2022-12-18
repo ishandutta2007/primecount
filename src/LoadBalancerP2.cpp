@@ -10,10 +10,10 @@
 /// file in the top level directory.
 ///
 
-#include <LoadBalancerP2.hpp>
-#include <primecount-internal.hpp>
-#include <imath.hpp>
-#include <min.hpp>
+#include "LoadBalancerP2.hpp"
+#include "primecount-internal.hpp"
+#include "imath.hpp"
+#include "min.hpp"
 
 #include <stdint.h>
 #include <algorithm>

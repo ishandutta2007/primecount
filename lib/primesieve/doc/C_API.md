@@ -13,7 +13,7 @@ is the ```primesieve_iterator``` which lets you iterate over primes using the
 ```primesieve_next_prime()``` or ```primesieve_prev_prime()``` functions. 
 
 The functions of libprimesieve's C API are defined in the [```<primesieve.h>```](../include/primesieve.h)
-and [```<primesieve/iterator.h>```](../include/primesieve/iterator.h) header files. If you
+and [```"primesieve/iterator.h"```](../include/primesieve/iterator.h) header files. If you
 need detailed information about libprimesieve's function signatures, e.g. because you want to
 write libprimesieve bindings for another programming language, then I suggest you read
 the libprimesieve header files which also contain additional documentation about the function
@@ -50,7 +50,7 @@ By default ```primesieve_next_prime()``` generates primes ≥ 0 i.e. 2, 3, 5, 7,
   same program.
 
 ```C
-#include <primesieve.h>
+#include "primesieve.h"
 #include <inttypes.h>
 #include <stdio.h>
 
@@ -91,7 +91,7 @@ up to this limit.
   $O(\log{n}\times \log{\log{n}})$ operations.
 
 ```C
-#include <primesieve.h>
+#include "primesieve.h"
 #include <inttypes.h>
 #include <stdio.h>
 
@@ -133,7 +133,7 @@ correct the start number in most cases using e.g.
   $O(\log{n}\times \log{\log{n}})$ operations.
 
 ```C
-#include <primesieve.h>
+#include "primesieve.h"
 #include <inttypes.h>
 #include <stdio.h>
 
@@ -169,7 +169,7 @@ Before using ```primesieve_prev_prime()``` you must first change the start numbe
   seen in the example below.
 
 ```C
-#include <primesieve.h>
+#include "primesieve.h"
 #include <inttypes.h>
 #include <stdio.h>
 
@@ -202,7 +202,7 @@ may be one of: ```SHORT_PRIMES```, ```USHORT_PRIMES```, ```INT_PRIMES```, ```UIN
 ```INT64_PRIMES```, ```UINT64_PRIMES```.
 
 ```C
-#include <primesieve.h>
+#include "primesieve.h"
 #include <stdio.h>
 
 int main()
@@ -233,7 +233,7 @@ be one of: ```SHORT_PRIMES```, ```USHORT_PRIMES```, ```INT_PRIMES```, ```UINT_PR
 ```INT64_PRIMES```, ```UINT64_PRIMES```.
 
 ```C
-#include <primesieve.h>
+#include "primesieve.h"
 #include <stdio.h>
 
 int main()
@@ -260,7 +260,7 @@ Counts the primes inside [start, stop]. This function is multi-threaded and uses
 available CPU cores by default.
 
 ```C
-#include <primesieve.h>
+#include "primesieve.h"
 #include <inttypes.h>
 #include <stdio.h>
 
@@ -282,7 +282,7 @@ This function finds the nth prime e.g. ```nth_prime(25) = 97```. This function i
 multi-threaded and uses all available CPU cores by default.
 
 ```C
-#include <primesieve.h>
+#include "primesieve.h"
 #include <inttypes.h>
 #include <stdio.h>
 
@@ -307,7 +307,7 @@ If an error occurs, libprimesieve functions with a ```uint64_t``` return type re
 and the corresponding error message is printed to the standard error stream.
 
 ```C
-#include <primesieve.h>
+#include "primesieve.h"
 #include <inttypes.h>
 #include <stdio.h>
 
@@ -334,7 +334,7 @@ This is useful to check after a computation that no error has occurred, this way
 check the return value of every single ```primesieve_next_prime()``` call.
 
 ```C
-#include <primesieve.h>
+#include "primesieve.h"
 #include <inttypes.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -370,7 +370,7 @@ check after a computation that no error has occurred, this way you don't have to
 check the return value of every single primesieve function call.
 
 ```C
-#include <primesieve.h>
+#include "primesieve.h"
 #include <errno.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -444,7 +444,7 @@ object. The OpenMP reduction clause takes care of adding the partial
 prime sum results together in a thread safe manner.
 
 ```C
-#include <primesieve.h>
+#include "primesieve.h"
 #include <inttypes.h>
 #include <stdio.h>
 #include <omp.h>

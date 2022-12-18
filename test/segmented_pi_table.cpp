@@ -8,9 +8,9 @@
 /// file in the top level directory.
 ///
 
-#include <PiTable.hpp>
-#include <SegmentedPiTable.hpp>
-#include <imath.hpp>
+#include "PiTable.hpp"
+#include "SegmentedPiTable.hpp"
+#include "imath.hpp"
 
 #include <stdint.h>
 #include <iostream>

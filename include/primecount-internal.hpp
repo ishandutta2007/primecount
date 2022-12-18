@@ -11,9 +11,9 @@
 #ifndef PRIMECOUNT_INTERNAL_HPP
 #define PRIMECOUNT_INTERNAL_HPP
 
-#include <int128_t.hpp>
-#include <print.hpp>
-#include <imath.hpp>
+#include "int128_t.hpp"
+#include "print.hpp"
+#include "imath.hpp"
 
 #include <stdint.h>
 #include <algorithm>

@@ -17,10 +17,10 @@
 #ifndef PITABLE_HPP
 #define PITABLE_HPP
 
-#include <BitSieve240.hpp>
-#include <popcnt.hpp>
-#include <macros.hpp>
-#include <pod_vector.hpp>
+#include "BitSieve240.hpp"
+#include "popcnt.hpp"
+#include "macros.hpp"
+#include "pod_vector.hpp"
 
 #include <stdint.h>
 

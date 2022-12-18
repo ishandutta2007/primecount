@@ -23,7 +23,7 @@
 #ifndef BINARYINDEXEDTREE_HPP
 #define BINARYINDEXEDTREE_HPP
 
-#include <pod_vector.hpp>
+#include "pod_vector.hpp"
 #include <stdint.h>
 
 namespace {

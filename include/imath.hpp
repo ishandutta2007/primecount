@@ -11,7 +11,7 @@
 #ifndef IMATH_HPP
 #define IMATH_HPP
 
-#include <isqrt.hpp>
+#include "isqrt.hpp"
 
 #include <stdint.h>
 #include <cmath>

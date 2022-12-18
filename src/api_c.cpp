@@ -8,9 +8,9 @@
 /// file in the top level directory.
 ///
 
-#include <primecount.h>
-#include <primecount.hpp>
-#include <int128_t.hpp>
+#include "primecount.h"
+#include "primecount.hpp"
+#include "int128_t.hpp"
 
 #include <stdint.h>
 #include <stddef.h>

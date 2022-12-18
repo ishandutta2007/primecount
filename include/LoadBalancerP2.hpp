@@ -13,8 +13,8 @@
 #ifndef LOADBALANCERP2_HPP
 #define LOADBALANCERP2_HPP
 
-#include <int128_t.hpp>
-#include <OmpLock.hpp>
+#include "int128_t.hpp"
+#include "OmpLock.hpp"
 
 #include <stdint.h>
 

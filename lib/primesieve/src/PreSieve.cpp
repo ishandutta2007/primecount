@@ -26,9 +26,9 @@
 /// file in the top level directory.
 ///
 
-#include <primesieve/PreSieve.hpp>
-#include <primesieve/EratSmall.hpp>
-#include <primesieve/macros.hpp>
+#include "primesieve/PreSieve.hpp"
+#include "primesieve/EratSmall.hpp"
+#include "primesieve/macros.hpp"
 
 #include <stdint.h>
 #include <algorithm>

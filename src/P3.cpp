@@ -9,12 +9,12 @@
 /// file in the top level directory.
 ///
 
-#include <primecount-internal.hpp>
-#include <generate.hpp>
-#include <imath.hpp>
-#include <macros.hpp>
-#include <PiTable.hpp>
-#include <print.hpp>
+#include "primecount-internal.hpp"
+#include "generate.hpp"
+#include "imath.hpp"
+#include "macros.hpp"
+#include "PiTable.hpp"
+#include "print.hpp"
 
 #include <stdint.h>
 

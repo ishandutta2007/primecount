@@ -380,13 +380,13 @@ operations using $O(\sqrt{x})$ space.
 
 ## C API
 
-Include the ```<primecount.h>``` header to use primecount's C API.
+Include the ```"primecount.h"``` header to use primecount's C API.
 All functions that are part of primecount's C API return ```-1``` in case an
 error occurs and print the corresponding error message to the standard error
 stream.
 
 ```C
-#include <primecount.h>
+#include "primecount.h"
 #include <stdio.h>
 
 int main()
@@ -403,13 +403,13 @@ int main()
 
 ## C++ API
 
-Include the ```<primecount.hpp>``` header to use primecount's C++ API.
+Include the ```"primecount.hpp"``` header to use primecount's C++ API.
 All functions that are part of primecount's C++ API throw a
 ```primecount_error``` exception (which is derived from
 ```std::exception```) in case an error occurs.
 
 ```C++
-#include <primecount.hpp>
+#include "primecount.hpp"
 #include <iostream>
 
 int main()

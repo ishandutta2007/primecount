@@ -13,9 +13,9 @@
 #ifndef BASEFACTORTABLE_HPP
 #define BASEFACTORTABLE_HPP
 
-#include <imath.hpp>
-#include <macros.hpp>
-#include <pod_vector.hpp>
+#include "imath.hpp"
+#include "macros.hpp"
+#include "pod_vector.hpp"
 
 #include <algorithm>
 #include <stdint.h>

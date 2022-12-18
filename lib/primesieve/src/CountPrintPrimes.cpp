@@ -12,15 +12,15 @@
 /// file in the top level directory.
 ///
 
-#include <primesieve/CountPrintPrimes.hpp>
-#include <primesieve/Erat.hpp>
-#include <primesieve/forward.hpp>
-#include <primesieve/littleendian_cast.hpp>
-#include <primesieve/macros.hpp>
-#include <primesieve/pmath.hpp>
-#include <primesieve/PreSieve.hpp>
-#include <primesieve/PrimeSieve.hpp>
-#include <primesieve/SievingPrimes.hpp>
+#include "primesieve/CountPrintPrimes.hpp"
+#include "primesieve/Erat.hpp"
+#include "primesieve/forward.hpp"
+#include "primesieve/littleendian_cast.hpp"
+#include "primesieve/macros.hpp"
+#include "primesieve/pmath.hpp"
+#include "primesieve/PreSieve.hpp"
+#include "primesieve/PrimeSieve.hpp"
+#include "primesieve/SievingPrimes.hpp"
 
 #include <stdint.h>
 #include <algorithm>

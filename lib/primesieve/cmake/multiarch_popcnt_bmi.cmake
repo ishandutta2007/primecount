@@ -21,7 +21,7 @@ check_cxx_source_compiles("
         #endif
     #endif
 
-    #include <primesieve/intrinsics.hpp>
+    #include "primesieve/intrinsics.hpp"
     #include <stdint.h>
     class PrimeGenerator {
         public:

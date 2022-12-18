@@ -10,11 +10,11 @@
 #ifndef LOADBALANCERS2_HPP
 #define LOADBALANCERS2_HPP
 
-#include <primecount-internal.hpp>
-#include <int128_t.hpp>
-#include <macros.hpp>
-#include <OmpLock.hpp>
-#include <StatusS2.hpp>
+#include "primecount-internal.hpp"
+#include "int128_t.hpp"
+#include "macros.hpp"
+#include "OmpLock.hpp"
+#include "StatusS2.hpp"
 
 #include <stdint.h>
 

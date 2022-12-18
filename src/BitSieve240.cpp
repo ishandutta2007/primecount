@@ -14,8 +14,8 @@
 /// file in the top level directory.
 ///
 
-#include <BitSieve240.hpp>
-#include <pod_vector.hpp>
+#include "BitSieve240.hpp"
+#include "pod_vector.hpp"
 
 #include <stdint.h>
 

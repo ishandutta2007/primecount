@@ -8,8 +8,8 @@
 /// file in the top level directory.
 ///
 
-#include <BaseFactorTable.hpp>
-#include <pod_vector.hpp>
+#include "BaseFactorTable.hpp"
+#include "pod_vector.hpp"
 
 #include <stdint.h>
 

@@ -1,7 +1,7 @@
 /// @example count_primes.cpp
 /// This example shows how to count primes.
 
-#include <primesieve.hpp>
+#include "primesieve.hpp"
 #include <stdint.h>
 #include <iostream>
 

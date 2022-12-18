@@ -1,7 +1,7 @@
 /** @example primes_array.c
  *  Generate an array of primes. */
 
-#include <primesieve.h>
+#include "primesieve.h"
 #include <stdio.h>
 
 int main()

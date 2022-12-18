@@ -17,18 +17,18 @@
 /// file in the top level directory.
 ///
 
-#include <primesieve/Erat.hpp>
-#include <primesieve/forward.hpp>
-#include <primesieve/littleendian_cast.hpp>
-#include <primesieve/macros.hpp>
-#include <primesieve/PreSieve.hpp>
-#include <primesieve/PrimeGenerator.hpp>
-#include <primesieve/primesieve_error.hpp>
-#include <primesieve/macros.hpp>
-#include <primesieve/pmath.hpp>
-#include <primesieve/pod_vector.hpp>
-#include <primesieve/intrinsics.hpp>
-#include <primesieve/SievingPrimes.hpp>
+#include "primesieve/Erat.hpp"
+#include "primesieve/forward.hpp"
+#include "primesieve/littleendian_cast.hpp"
+#include "primesieve/macros.hpp"
+#include "primesieve/PreSieve.hpp"
+#include "primesieve/PrimeGenerator.hpp"
+#include "primesieve/primesieve_error.hpp"
+#include "primesieve/macros.hpp"
+#include "primesieve/pmath.hpp"
+#include "primesieve/pod_vector.hpp"
+#include "primesieve/intrinsics.hpp"
+#include "primesieve/SievingPrimes.hpp"
 
 #include <stdint.h>
 #include <algorithm>

@@ -44,14 +44,14 @@
 #ifndef FACTORTABLE_HPP
 #define FACTORTABLE_HPP
 
-#include <primecount.hpp>
-#include <primecount-internal.hpp>
-#include <BaseFactorTable.hpp>
-#include <primesieve.hpp>
-#include <imath.hpp>
-#include <int128_t.hpp>
-#include <macros.hpp>
-#include <pod_vector.hpp>
+#include "primecount.hpp"
+#include "primecount-internal.hpp"
+#include "BaseFactorTable.hpp"
+#include "primesieve.hpp"
+#include "imath.hpp"
+#include "int128_t.hpp"
+#include "macros.hpp"
+#include "pod_vector.hpp"
 
 #include <algorithm>
 #include <limits>

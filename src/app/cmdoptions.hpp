@@ -10,7 +10,7 @@
 #ifndef CMDOPTIONS_HPP
 #define CMDOPTIONS_HPP
 
-#include <int128_t.hpp>
+#include "int128_t.hpp"
 #include <stdint.h>
 
 namespace primecount {

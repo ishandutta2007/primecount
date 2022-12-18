@@ -1,7 +1,7 @@
 /** @example count_primes.c
  *  C program that shows how to count primes. */
 
-#include <primesieve.h>
+#include "primesieve.h"
 #include <inttypes.h>
 #include <stdio.h>
 

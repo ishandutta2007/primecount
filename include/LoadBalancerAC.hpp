@@ -16,7 +16,7 @@
 #ifndef LOADBALANCERAC_HPP
 #define LOADBALANCERAC_HPP
 
-#include <OmpLock.hpp>
+#include "OmpLock.hpp"
 #include <stdint.h>
 
 namespace primecount {

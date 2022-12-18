@@ -18,12 +18,12 @@
 #ifndef PHITINY_HPP
 #define PHITINY_HPP
 
-#include <BitSieve240.hpp>
-#include <fast_div.hpp>
-#include <imath.hpp>
-#include <macros.hpp>
-#include <pod_vector.hpp>
-#include <popcnt.hpp>
+#include "BitSieve240.hpp"
+#include "fast_div.hpp"
+#include "imath.hpp"
+#include "macros.hpp"
+#include "pod_vector.hpp"
+#include "popcnt.hpp"
 
 #include <stdint.h>
 #include <limits>

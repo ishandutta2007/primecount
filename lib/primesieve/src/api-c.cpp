@@ -10,9 +10,9 @@
 /// file in the top level directory.
 ///
 
-#include <primesieve.h>
-#include <primesieve.hpp>
-#include <primesieve/malloc_vector.hpp>
+#include "primesieve.h"
+#include "primesieve.hpp"
+#include "primesieve/malloc_vector.hpp"
 
 #include <stdint.h>
 #include <cstdlib>

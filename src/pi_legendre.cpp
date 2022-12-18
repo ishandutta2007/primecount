@@ -23,9 +23,9 @@
 /// file in the top level directory.
 ///
 
-#include <primecount-internal.hpp>
-#include <print.hpp>
-#include <isqrt.hpp>
+#include "primecount-internal.hpp"
+#include "print.hpp"
+#include "isqrt.hpp"
 
 #include <stdint.h>
 

@@ -7,12 +7,12 @@
 /// file in the top level directory.
 ///
 
-#include <primesieve/iterator.hpp>
-#include <primesieve/forward.hpp>
-#include <primesieve/PrimeSieve.hpp>
-#include <primesieve/macros.hpp>
-#include <primesieve/pmath.hpp>
-#include <primesieve/primesieve_error.hpp>
+#include "primesieve/iterator.hpp"
+#include "primesieve/forward.hpp"
+#include "primesieve/PrimeSieve.hpp"
+#include "primesieve/macros.hpp"
+#include "primesieve/pmath.hpp"
+#include "primesieve/primesieve_error.hpp"
 
 #include <stdint.h>
 #include <algorithm>

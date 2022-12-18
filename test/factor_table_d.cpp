@@ -13,8 +13,8 @@
 // reasons, we only enable it for testing.
 #define ENABLE_MU_0_TESTING
 
-#include <FactorTableD.hpp>
-#include <generate.hpp>
+#include "FactorTableD.hpp"
+#include "generate.hpp"
 
 #include <stdint.h>
 #include <iostream>

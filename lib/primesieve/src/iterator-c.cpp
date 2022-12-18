@@ -8,11 +8,11 @@
 /// file in the top level directory.
 ///
 
-#include <primesieve.h>
-#include <primesieve/IteratorHelper.hpp>
-#include <primesieve/PrimeGenerator.hpp>
-#include <primesieve/macros.hpp>
-#include <primesieve/pod_vector.hpp>
+#include "primesieve.h"
+#include "primesieve/IteratorHelper.hpp"
+#include "primesieve/PrimeGenerator.hpp"
+#include "primesieve/macros.hpp"
+#include "primesieve/pod_vector.hpp"
 
 #include <stdint.h>
 #include <cerrno>

@@ -8,12 +8,12 @@
 /// file in the top level directory.
 ///
 
-#include <primesieve/SievingPrimes.hpp>
-#include <primesieve/Erat.hpp>
-#include <primesieve/PreSieve.hpp>
-#include <primesieve/littleendian_cast.hpp>
-#include <primesieve/macros.hpp>
-#include <primesieve/pmath.hpp>
+#include "primesieve/SievingPrimes.hpp"
+#include "primesieve/Erat.hpp"
+#include "primesieve/PreSieve.hpp"
+#include "primesieve/littleendian_cast.hpp"
+#include "primesieve/macros.hpp"
+#include "primesieve/pmath.hpp"
 
 #include <stdint.h>
 #include <algorithm>

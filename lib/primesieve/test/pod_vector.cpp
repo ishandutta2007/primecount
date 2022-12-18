@@ -9,7 +9,7 @@
 /// file in the top level directory.
 ///
 
-#include <primesieve/pod_vector.hpp>
+#include "primesieve/pod_vector.hpp"
 
 #include <cstdlib>
 #include <iostream>

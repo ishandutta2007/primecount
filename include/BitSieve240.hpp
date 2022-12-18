@@ -17,7 +17,7 @@
 #ifndef BITSIEVE240_HPP
 #define BITSIEVE240_HPP
 
-#include <pod_vector.hpp>
+#include "pod_vector.hpp"
 #include <stdint.h>
 
 namespace primecount {

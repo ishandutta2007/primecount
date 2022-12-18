@@ -9,8 +9,8 @@
 /// file in the top level directory.
 ///
 
-#include <generate.hpp>
-#include <primesieve.hpp>
+#include "generate.hpp"
+#include "primesieve.hpp"
 
 #include <stdint.h>
 #include <iostream>

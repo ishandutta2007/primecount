@@ -19,7 +19,7 @@
 #define PRIMESIEVE_VERSION_MAJOR 11
 #define PRIMESIEVE_VERSION_MINOR 0
 
-#include <primesieve/iterator.h>
+#include "primesieve/iterator.h"
 
 #include <stdint.h>
 #include <stddef.h>

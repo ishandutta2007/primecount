@@ -10,10 +10,10 @@
 /// file in the top level directory.
 ///
 
-#include <StatusS2.hpp>
-#include <primecount-internal.hpp>
-#include <imath.hpp>
-#include <int128_t.hpp>
+#include "StatusS2.hpp"
+#include "primecount-internal.hpp"
+#include "imath.hpp"
+#include "int128_t.hpp"
 
 #include <iostream>
 #include <algorithm>

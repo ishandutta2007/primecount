@@ -10,15 +10,15 @@
 
 #include "cmdoptions.hpp"
 
-#include <primecount.hpp>
-#include <primecount-internal.hpp>
-#include <gourdon.hpp>
-#include <imath.hpp>
-#include <int128_t.hpp>
-#include <PhiTiny.hpp>
-#include <print.hpp>
-#include <S.hpp>
-#include <to_string.hpp>
+#include "primecount.hpp"
+#include "primecount-internal.hpp"
+#include "gourdon.hpp"
+#include "imath.hpp"
+#include "int128_t.hpp"
+#include "PhiTiny.hpp"
+#include "print.hpp"
+#include "S.hpp"
+#include "to_string.hpp"
 
 #include <stdint.h>
 #include <exception>
